@@ -1,3 +1,17 @@
+# AE 370 — Sounding Rocket Ascent Simulation & Numerical Analysis
+
+This repository contains a custom, first-principles implementation of a 4th-order Runge-Kutta (RK4) numerical integrator designed to simulate the 1-D flight dynamics of a sounding rocket from launch to apogee.
+
+## Project Structure
+* `sounding_rocket_rk4_notebook-2.ipynb` — The primary Jupyter notebook containing the complete simulation code, convergence study, and parametric trade-off plots.
+
+## How to Run for Reproducibility
+1. Ensure you have **Python 3.x** installed along with the required standard libraries (`numpy`, `matplotlib`).
+2. Open the notebook in your local environment or VS Code:
+   ```bash
+   jupyter notebook sounding_rocket_rk4_notebook-2.ipynb
+
+
 # Sounding-Rocket-Ascent---Initial-Value-Problem
 # AE 370 — Sounding Rocket Ascent
 ### 1. Define the rocket's parameters
